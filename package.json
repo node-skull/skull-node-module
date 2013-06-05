@@ -1,0 +1,14 @@
+{
+    "name": "module-name",
+    "version": "0.0.1",
+    "private": false,
+    "description": "module-description",
+    "keywords": [],
+    "license": "your license",
+    "url": "url of module",
+    "bin": {},
+    "main": "",
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {}
+}
