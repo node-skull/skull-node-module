@@ -1,14 +1,25 @@
 {
-    "name": "module-name",
+    "name": "glia",
     "version": "0.0.1",
     "private": false,
-    "description": "module-description",
-    "keywords": [],
-    "license": "your license",
-    "url": "url of module",
-    "bin": {},
-    "main": "",
-    "dependencies": {},
-    "devDependencies": {},
-    "engines": {}
+    "description": "Micro database based on bson, for embedded applications.",
+    "keywords": [
+        "database",
+        "micro",
+        "bson",
+        "embedded"
+    ],
+    "license": "BSD",
+    "url": "https://github.com/fth-ship/glia.git",
+    "main": "./lib/index.js",
+    "dependencies": {
+        "basalt": "*",
+        "winston": "*"
+    },
+    "devDependencies": {
+        "should": "*"    
+    },
+    "engines": {
+        "node": ">=0.8.x"    
+    }
 }
