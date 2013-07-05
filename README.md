@@ -1,3 +1,3 @@
-# Glia
+# Node module 
 
-Micro database based on bson, for embedded applications.
+Template to a node module.
